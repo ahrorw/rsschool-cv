@@ -1,0 +1,40 @@
+blockquote {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .conteiner {
+    max-width: 1024px;
+    margin: auto;
+  }
+  .name, .contacts {
+  text-align: center;
+  }
+  .photo-box {
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    object-fit: fill; 
+    overflow: hidden;
+  }
+  .photo {
+     width: 300px; 
+    height: 350px;
+    object-fit: cover;
+    object-position: center -35px;
+  }
+  
+  
+  .contact-link {
+    text-decoration: none;
+  }
+  
+  .detals {
+    margin-left: 20px;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
